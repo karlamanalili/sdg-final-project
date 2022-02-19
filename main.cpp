@@ -1,17 +1,14 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 
 using namespace std; 
 
 int main() {
-    char country; //this is the constant made for calling the countries in the switch case expression
+    char country; 
     
     cout << " A. Brunei \nB. Burma\nC. Cambodia\nD. Timor-Leste \nE. Indonesia \nF. Malaysia \nG. Philippines \nH. Singapore \nI. Thailand \nJ. Vietnam \n \n Choose a letter to pick a Country: "; //Basically what the users sees and can choose from
     
     cin >> country; 
-    
-    //I used switch statement so the user input is in the form of a single character even though the display is in uppercase, the program can accept both lower and upper-case characters
-    
+     
     switch ( country ){
         //you have to be careful, it doesn't accept too much characters 
         case 'A':
@@ -63,7 +60,7 @@ int main() {
         case 'j':
         cout << "\n Vietnam \n Country Summary \n - Vietnam has both a tropical climate zone and a temperate climate zone, with all of the country experiencing the effects of the annual monsoon. \n - Rainy seasons correspond to monsoon circulations, which bring heavy rainfall in the north and south from May to October, and in the central regions from September to January. \n - The northern regions, average temperatures range from 22–27.5'C in summer to 15–20'C in winter, while the southern areas have a narrower range of 28–29'C in summer to 26–27'C in winter. \n - Climate is also impacted by the El Niño Southern Oscillation (ENSO), which influences monsoonal circulation, and drives complex shifts in rainfall and temperature patterns which vary spatially at a sub-national level. \n - Mean annual temperature has increased by 0.5–0.7'C since 1960, with the rate of increase most rapid in southern Vietnam and the Central Highlands.";
         break;
-        //with switch cases, it doesn't accept more than one letter that's why I used one letter per country
+        
         
     }
     return 0;
