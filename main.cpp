@@ -10,7 +10,6 @@ int main() {
     cin >> country; 
      
     switch ( country ){
-        //you have to be careful, it doesn't accept too much characters 
         case 'A':
         case 'a':
         cout << "\n Brunei Darussalam \n Country Summary \n - Located on the northwest coast of the island of Borneo in SouthEast Asia. \n - The country has hilly lowlands and peat swamp forests in the west, rugged mountains in the east, and swampy, flat plain along the coast. \n - Brunei Darussalam has an equatorial climate influenced by the monsoon systems known as northeast monsoon and southwest monsoon. \n - The country generally experiences wet conditions throughout the year with average annual rainfall of 3,000 millimeters (2010-2014) - Being in an equatorial climate country, the temperature is hot throughout the year. The mean daily temperature is 28.04°C, with maximum mean of 32.4°C and minimum mean of 23.7°C (2010-2014) \n \n Temperature \n - The country experienced a rise in average temperature by 0.6°C between 1970 and 2014. \n \n Precipitation \n - An increase in average annual rainfall was also recorded between 2005 and 2015. \n - An irregularity in monthly rainfall trend was observed in 2019.";
